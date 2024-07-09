@@ -1,0 +1,17 @@
+.img{
+  width: 180px;
+  height:auto;
+  display: flex;
+  justify-content: center;
+ 
+  padding: 50px 120px 50px;
+  
+}
+
+.h2{
+margin-top: -100px;
+margin-left: 20px;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #01913D;
+}

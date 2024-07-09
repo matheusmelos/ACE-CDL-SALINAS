@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.homepage {
+  text-align: center;
+  align-items: center;
+  background-color: #CFD0D3;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo {
+ 
+  width: 250px;
+  height:auto;
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #051D40; 
+  gap: 10px; /* Espaço entre os botões */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px; /* Bordas arredondadas */
+   margin-bottom: 150px;
+}
+
+.button {
+  width: 300px; /* Largura dos botões */
+  height: 50px; /* Altura dos botões */
+
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Espaço entre os botões */ 
+  position: relative;
+  text-decoration: none;
+
+  /* Adicionando sombra ao botão */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-1 {
+  border: 2px solid #01913D;
+  background-color:#01913D;
+  color: white;
+}
+.button-3 {
+  border: 2px solid #FDD102;
+  background-color: #FDD102;
+  color: white;
+}
+
+.button-2 {
+  border: 2px solid #051D40;
+  background-color: #051D40;;
+  color: white;
+}
+
+.button-1:hover {
+  background-color: #01913D;
+  color:white;
+}
+.button-3:hover {
+  background-color: #FDD102;
+  color:white;
+}
+.button-2:hover {
+  background-color: #051D40;
+  color:white;
+}
+h2 {
+  margin-top: -110px; /* Espaço entre as logos e o subtítulo */
+}
+.button-icon {
+  width: 50px; /* Ajuste conforme necessário */
+  height: auto;
+  position: absolute;
+  left: 20px; /* Ajuste conforme necessário */
+}

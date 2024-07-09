@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.convenios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 100px 20px 50px;
+  margin-bottom: 50px;
+}
+
+.convenio-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 20%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.convenio-link {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.convenio-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.convenios-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-blue:hover {
+  background-color: #14224D;
+  border: 2px solid #01913D;
+  color: white;
+}
+
+.button-green:hover {
+  background-color: #01913D;
+  border: 2px solid #14224D;
+  color: white;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #14224D;
+  text-decoration: underline;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.back-button:hover {
+  background-color: #14224D;
+  color: white;
+}
+
+.titulo {
+  font-size: 2.5em;
+  color: #14224D;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subtitulo {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  color: #01913D;
+}
+
+.titulo, .subtitulo {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.convenio-button.blue {
+  color: #14224D;
+  border: 2px solid #14224D;
+}
+
+.convenio-button.green {
+  color: #01913D;
+  border: 2px solid #01913D;
+}

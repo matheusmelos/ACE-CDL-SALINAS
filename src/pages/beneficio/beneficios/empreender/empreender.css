@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   padding: 100px 10px 0px;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.logobee {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.text-section {
+  background-color: #f9f9f9;
+  border: 2px solid #14224D;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 13.5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.text-section h1 {
+  color: #14224D;
+}
+
+.text-section p {
+  color: #14224D;
+}
+
+.text-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text-section ul li {
+  text-align: left;
+ color: #14224D;
+  margin: 5px 0;
+}
+
+.contato{
+  text-align: left;
+   color: #01913D;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.but {
+  width: 300px; /* Largura dos botões */
+  height: 50px; /* Altura dos botões */
+  background-color: white;
+  border-radius: 30px;
+  flex-direction: row;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Espaço entre os botões */ position: relative;
+  border: 2px solid #14224D;
+
+  color: #14224D;
+
+  text-decoration: none;
+}
+
+.Bicon {
+  width: 30px; /* Ajuste conforme necessário */
+  height: auto;
+  position: absolute; 
+  left: 20px; /* Ajuste conforme necessário */
+}
+.bcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Espaço entre os botões */
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px; /* Bordas arredondadas */
+  margin-bottom: 50px;
+}

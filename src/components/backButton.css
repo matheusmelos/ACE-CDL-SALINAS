@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.backOriginal {
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-top:66px;
+  z-index: -1;
+}
+.iconOr {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

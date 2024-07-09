@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.titlefale{
+ color: #14224D;
+font-family: 'Poppins', sans-serif;
+  
+}
+.back-button1 {
+  position: absolute;
+  top:-40px;
+  left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; 
+  color: #14224D;
+  text-decoration:underline;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 115px;
+  margin-left: 10px;
+  width: 100px;
+  height:20px;
+  font-size:15px;
+  font-family: 'Poppins', sans-serif;
+}
+.IconB{
+  width: 30px; /* Ajuste conforme necessário */
+  height: auto;
+  position: absolute;
+  left: 10px; /* Ajuste conforme necessário */
+
+  
+}
+.buttonFale {
+  width: 300px; /* Largura dos botões */
+  height: 50px; /* Altura dos botões */
+  background-color: #14224D ;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Espaço entre os botões */ 
+  position: relative;
+
+  text-decoration: none;
+}
+.buttonADM {
+  width: 300px; /* Largura dos botões */
+  height: 50px; /* Altura dos botões */
+  background-color: #14224D ;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Espaço entre os botões */ 
+  position: relative;
+
+  text-decoration: none;
+}
+.falepage {
+  text-align: center;
+  align-items: center;
+  background-color: #F1F1F1;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10px 0px;
+}
+.button-5 {
+  border: 2px solid #01913D;
+  background-color:#01913D;
+  color: white;
+}
+.button-6 {
+  border: 2px solid #FDD102;
+  background-color: #FDD102;
+  color: white;
+}
+
+.button-4 {
+  border: 2px solid #051D40;
+  background-color: #051D40;;
+  color: white;
+}

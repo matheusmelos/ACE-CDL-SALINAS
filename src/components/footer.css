@@ -1,0 +1,70 @@
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14224D;
+  color: white;
+  padding: 10px 20px;
+  position: fixed; /* Fixar o footer no fim da página */
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+/* Ensure the main content pushes the footer to the bottom */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o container ocupe a altura total da viewport */
+  padding-bottom: 100px; /* Espaço extra para o footer fixo */
+}
+
+.content-wrap {
+  flex: 1; /* Ajustado para flex: 1 para ocupar espaço disponível */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.author {
+  font-weight: bold;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  margin: 0 15px; /* Espaço entre os links */
+  text-decoration: none; /* Remove sublinhado do texto */
+  color: white; /* Define a cor do texto */
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.social-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}

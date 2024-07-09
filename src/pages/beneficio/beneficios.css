@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.benef-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  color: #14224D;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 20%;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  border: 2px solid; /* Adiciona uma borda de 2px para todos os botões */
+}
+
+.benef-button.blue-border {
+  border-color: #14224D;
+}
+
+.benef-button.green-border {
+  border-color: #01913D;
+}
+
+.benef-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 50px;
+  padding: 100px 20px 60px;
+}
+
+.benef-link {
+  text-decoration: none;
+  margin: -5px;
+}
+
+.benef-icon {
+  width: auto;
+  height: 65px;
+  margin-bottom: 5px;
+}
+
+.benef-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; /* Pequeno gap entre as fileiras de botões */
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px; /* Ajuste conforme necessário */
+}
+
+.back-button {
+  background-color: white;
+  color: #14224D;
+  text-decoration: underline;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.back-button:hover {
+  background-color: #14224D;
+  color: white;
+}
+
+.titulo {
+  font-size: 2.5em;
+  color: #14224D;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.subtitulo {
+  font-size: 8.5px; /* Ajustado para maior legibilidade */
+  font-family: 'Poppins', sans-serif;
+  color: #01913D;
+}
+
+.titulo, .subtitulo {
+  margin: 0;
+  padding: 10px 0; /* Ajustado para espaçamento */
+}
